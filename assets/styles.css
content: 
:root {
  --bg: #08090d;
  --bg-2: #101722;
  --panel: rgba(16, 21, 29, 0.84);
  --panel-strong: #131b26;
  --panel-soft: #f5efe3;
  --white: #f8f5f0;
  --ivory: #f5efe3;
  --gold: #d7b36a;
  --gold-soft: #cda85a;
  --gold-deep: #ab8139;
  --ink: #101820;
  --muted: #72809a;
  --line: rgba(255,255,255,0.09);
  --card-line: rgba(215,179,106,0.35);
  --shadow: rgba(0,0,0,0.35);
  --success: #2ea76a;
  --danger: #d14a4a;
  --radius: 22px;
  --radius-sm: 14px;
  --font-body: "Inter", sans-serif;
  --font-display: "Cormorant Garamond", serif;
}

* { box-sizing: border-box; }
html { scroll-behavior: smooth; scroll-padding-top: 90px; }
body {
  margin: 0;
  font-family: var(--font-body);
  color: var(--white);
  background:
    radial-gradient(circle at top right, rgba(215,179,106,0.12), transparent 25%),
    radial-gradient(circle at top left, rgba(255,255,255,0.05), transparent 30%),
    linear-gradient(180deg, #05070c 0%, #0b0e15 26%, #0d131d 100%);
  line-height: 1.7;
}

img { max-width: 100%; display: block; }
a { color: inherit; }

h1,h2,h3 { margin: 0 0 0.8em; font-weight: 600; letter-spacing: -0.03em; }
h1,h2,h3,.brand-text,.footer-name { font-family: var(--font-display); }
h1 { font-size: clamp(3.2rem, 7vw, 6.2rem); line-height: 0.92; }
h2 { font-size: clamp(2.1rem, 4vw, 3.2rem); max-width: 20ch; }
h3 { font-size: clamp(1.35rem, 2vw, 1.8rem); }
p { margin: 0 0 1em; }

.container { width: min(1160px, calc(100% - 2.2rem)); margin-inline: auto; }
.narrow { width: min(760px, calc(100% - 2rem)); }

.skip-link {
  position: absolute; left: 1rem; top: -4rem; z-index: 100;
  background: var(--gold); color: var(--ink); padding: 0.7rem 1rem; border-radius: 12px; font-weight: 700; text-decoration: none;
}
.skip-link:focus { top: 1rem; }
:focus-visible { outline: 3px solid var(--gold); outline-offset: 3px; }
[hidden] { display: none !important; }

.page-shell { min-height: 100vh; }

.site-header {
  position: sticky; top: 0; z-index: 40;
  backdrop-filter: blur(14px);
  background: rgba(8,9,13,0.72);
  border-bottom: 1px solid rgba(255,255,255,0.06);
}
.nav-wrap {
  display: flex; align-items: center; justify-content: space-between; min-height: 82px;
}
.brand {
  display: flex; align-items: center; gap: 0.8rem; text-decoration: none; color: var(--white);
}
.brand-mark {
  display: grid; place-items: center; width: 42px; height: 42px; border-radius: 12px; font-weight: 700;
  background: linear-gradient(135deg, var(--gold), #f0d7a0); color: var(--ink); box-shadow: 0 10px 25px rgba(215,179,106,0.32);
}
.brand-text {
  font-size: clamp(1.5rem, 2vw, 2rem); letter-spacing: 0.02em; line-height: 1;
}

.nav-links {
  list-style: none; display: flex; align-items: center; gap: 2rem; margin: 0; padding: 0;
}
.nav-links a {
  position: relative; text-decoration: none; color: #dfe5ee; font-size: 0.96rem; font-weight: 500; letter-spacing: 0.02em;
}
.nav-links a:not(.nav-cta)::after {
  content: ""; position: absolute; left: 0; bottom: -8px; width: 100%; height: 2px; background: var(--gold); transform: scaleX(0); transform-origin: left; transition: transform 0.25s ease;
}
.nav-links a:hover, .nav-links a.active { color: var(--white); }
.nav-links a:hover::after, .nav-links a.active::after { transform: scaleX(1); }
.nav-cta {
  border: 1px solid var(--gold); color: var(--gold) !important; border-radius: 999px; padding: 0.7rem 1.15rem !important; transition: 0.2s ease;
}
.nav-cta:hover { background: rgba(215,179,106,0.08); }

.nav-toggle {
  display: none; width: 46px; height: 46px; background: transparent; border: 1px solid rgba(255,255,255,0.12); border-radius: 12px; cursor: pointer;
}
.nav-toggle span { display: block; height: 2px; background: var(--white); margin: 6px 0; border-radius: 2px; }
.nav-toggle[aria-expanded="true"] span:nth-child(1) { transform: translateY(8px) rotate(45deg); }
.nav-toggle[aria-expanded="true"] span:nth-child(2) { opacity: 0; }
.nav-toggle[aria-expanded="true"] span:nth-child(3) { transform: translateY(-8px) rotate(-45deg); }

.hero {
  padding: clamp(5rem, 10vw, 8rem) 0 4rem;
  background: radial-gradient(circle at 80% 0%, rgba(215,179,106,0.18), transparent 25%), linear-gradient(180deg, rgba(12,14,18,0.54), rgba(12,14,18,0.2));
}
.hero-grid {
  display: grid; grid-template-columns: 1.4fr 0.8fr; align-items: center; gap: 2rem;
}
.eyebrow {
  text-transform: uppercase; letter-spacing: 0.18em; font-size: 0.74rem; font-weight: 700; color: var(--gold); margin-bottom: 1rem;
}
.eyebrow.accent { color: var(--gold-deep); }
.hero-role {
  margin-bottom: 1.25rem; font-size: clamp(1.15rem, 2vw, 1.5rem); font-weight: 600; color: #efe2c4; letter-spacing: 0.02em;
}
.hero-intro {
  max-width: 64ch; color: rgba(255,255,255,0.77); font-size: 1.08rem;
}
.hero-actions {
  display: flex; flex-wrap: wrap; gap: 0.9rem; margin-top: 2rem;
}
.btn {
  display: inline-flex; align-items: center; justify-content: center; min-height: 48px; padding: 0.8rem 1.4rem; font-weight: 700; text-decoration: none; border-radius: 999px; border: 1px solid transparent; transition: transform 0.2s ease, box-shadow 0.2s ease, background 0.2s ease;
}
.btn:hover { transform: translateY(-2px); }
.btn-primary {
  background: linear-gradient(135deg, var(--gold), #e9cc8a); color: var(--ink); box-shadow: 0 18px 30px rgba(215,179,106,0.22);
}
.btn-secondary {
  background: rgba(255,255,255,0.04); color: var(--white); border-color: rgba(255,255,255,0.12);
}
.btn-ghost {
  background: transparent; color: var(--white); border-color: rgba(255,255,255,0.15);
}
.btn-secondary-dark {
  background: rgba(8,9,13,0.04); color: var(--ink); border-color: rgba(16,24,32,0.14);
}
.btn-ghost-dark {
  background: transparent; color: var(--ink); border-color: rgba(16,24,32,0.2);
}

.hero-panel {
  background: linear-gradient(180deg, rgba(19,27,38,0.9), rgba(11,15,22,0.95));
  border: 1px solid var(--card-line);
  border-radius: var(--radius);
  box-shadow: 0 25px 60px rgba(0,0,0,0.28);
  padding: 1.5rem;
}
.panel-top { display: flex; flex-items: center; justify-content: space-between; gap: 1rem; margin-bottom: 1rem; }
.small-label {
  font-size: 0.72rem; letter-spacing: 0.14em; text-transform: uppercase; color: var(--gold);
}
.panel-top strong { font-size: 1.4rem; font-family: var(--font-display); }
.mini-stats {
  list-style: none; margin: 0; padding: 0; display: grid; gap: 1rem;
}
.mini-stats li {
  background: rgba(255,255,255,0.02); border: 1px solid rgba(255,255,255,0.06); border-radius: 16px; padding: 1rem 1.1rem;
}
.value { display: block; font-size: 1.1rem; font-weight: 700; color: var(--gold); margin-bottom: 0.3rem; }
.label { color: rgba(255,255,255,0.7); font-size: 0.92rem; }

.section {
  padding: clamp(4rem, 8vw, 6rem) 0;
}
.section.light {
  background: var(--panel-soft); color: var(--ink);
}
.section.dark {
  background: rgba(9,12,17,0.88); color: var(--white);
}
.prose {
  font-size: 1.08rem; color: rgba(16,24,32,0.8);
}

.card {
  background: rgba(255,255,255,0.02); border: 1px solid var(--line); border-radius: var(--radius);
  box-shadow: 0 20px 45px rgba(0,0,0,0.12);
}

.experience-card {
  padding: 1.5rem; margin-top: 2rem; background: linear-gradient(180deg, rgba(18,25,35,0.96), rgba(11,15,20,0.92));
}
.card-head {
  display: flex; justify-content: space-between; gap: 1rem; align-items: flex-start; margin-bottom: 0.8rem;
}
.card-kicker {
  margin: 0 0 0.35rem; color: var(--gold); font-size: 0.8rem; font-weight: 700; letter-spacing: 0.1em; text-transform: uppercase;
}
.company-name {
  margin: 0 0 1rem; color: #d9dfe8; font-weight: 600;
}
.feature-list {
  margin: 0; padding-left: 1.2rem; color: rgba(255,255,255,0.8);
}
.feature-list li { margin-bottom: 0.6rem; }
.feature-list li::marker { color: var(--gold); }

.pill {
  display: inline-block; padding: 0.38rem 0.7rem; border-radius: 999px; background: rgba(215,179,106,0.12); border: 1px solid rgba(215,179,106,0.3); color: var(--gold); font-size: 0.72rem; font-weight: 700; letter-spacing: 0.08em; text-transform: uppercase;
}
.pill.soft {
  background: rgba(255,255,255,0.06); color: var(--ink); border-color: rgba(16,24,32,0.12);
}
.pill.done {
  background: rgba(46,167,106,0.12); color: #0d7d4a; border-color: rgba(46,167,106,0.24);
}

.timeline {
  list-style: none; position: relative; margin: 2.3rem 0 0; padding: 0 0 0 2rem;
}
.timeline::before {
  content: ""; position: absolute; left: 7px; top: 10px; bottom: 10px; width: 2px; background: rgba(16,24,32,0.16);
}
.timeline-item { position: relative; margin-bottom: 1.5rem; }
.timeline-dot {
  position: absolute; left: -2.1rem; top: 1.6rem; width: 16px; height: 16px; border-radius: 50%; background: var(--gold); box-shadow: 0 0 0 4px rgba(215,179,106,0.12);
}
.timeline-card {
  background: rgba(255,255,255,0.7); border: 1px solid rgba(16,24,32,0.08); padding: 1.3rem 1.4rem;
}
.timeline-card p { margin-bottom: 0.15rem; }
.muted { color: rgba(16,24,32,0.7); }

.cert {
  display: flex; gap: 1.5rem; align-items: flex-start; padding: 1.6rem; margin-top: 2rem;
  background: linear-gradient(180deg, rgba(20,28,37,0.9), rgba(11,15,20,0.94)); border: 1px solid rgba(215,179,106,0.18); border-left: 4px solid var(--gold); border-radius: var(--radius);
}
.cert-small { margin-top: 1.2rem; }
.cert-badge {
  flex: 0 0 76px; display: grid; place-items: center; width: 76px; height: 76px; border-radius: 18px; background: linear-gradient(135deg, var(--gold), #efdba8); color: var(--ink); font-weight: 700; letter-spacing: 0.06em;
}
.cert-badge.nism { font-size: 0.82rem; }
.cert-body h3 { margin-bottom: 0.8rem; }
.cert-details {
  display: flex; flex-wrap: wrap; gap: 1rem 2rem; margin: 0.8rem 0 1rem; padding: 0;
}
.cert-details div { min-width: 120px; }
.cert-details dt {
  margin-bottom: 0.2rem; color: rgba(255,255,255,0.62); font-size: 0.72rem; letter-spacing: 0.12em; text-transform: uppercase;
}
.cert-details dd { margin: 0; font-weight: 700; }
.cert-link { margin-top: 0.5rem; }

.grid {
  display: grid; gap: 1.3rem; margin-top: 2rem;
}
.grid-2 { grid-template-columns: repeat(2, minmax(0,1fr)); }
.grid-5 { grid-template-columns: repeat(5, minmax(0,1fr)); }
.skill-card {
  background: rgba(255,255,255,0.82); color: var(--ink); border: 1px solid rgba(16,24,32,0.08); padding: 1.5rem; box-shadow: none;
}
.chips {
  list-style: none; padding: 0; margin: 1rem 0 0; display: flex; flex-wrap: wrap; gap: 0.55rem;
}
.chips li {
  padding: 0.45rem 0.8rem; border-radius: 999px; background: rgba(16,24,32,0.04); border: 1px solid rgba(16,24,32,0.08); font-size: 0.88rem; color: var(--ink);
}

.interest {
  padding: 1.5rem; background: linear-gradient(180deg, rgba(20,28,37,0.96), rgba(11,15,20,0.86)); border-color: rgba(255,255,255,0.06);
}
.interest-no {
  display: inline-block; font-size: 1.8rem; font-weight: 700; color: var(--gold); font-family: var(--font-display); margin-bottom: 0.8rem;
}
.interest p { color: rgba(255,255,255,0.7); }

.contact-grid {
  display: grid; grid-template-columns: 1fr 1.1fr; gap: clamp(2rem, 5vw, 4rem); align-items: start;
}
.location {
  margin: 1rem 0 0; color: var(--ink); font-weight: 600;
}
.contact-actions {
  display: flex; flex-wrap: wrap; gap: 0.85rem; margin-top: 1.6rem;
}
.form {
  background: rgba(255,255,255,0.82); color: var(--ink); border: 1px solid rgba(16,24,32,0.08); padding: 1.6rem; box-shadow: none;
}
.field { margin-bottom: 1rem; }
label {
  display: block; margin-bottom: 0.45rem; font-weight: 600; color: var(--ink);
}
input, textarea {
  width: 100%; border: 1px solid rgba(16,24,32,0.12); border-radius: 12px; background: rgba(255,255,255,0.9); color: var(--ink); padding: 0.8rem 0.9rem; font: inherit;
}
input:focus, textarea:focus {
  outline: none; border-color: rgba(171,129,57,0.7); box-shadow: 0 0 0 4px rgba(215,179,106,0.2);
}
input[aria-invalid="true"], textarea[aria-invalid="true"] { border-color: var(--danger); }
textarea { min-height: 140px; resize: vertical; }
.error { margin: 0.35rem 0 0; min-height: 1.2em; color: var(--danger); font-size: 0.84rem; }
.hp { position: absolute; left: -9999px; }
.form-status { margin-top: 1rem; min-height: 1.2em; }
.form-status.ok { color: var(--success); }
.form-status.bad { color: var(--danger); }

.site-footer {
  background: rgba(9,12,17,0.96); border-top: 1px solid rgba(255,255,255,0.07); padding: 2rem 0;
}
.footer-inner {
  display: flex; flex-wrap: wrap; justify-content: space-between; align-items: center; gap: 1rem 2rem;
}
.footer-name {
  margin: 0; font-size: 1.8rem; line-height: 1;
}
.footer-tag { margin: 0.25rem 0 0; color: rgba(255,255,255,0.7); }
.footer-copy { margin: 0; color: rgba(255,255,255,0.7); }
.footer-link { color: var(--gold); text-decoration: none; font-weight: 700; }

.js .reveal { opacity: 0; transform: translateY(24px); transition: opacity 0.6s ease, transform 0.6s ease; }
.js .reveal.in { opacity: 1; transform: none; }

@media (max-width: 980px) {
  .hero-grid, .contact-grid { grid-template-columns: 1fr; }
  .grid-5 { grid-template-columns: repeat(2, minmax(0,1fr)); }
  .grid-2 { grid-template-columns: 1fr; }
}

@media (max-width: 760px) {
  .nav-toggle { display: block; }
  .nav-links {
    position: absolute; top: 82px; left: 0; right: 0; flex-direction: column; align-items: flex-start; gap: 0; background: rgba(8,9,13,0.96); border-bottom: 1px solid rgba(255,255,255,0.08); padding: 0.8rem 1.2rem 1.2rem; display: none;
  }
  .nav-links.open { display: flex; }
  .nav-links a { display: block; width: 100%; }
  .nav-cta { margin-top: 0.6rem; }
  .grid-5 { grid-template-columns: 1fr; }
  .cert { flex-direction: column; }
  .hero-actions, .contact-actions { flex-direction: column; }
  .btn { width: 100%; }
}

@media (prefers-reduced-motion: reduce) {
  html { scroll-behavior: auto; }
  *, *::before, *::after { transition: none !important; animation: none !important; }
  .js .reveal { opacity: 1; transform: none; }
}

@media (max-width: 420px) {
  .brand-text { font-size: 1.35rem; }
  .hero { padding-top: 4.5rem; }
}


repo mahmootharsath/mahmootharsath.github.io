@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mahmooth Arsath M | Luxury Finance & SAP Portfolio</title>
+  <meta name="description" content="Luxury portfolio for Mahmooth Arsath M, a finance, SAP, and business operations professional with ERP and accounting expertise.">
+  <meta name="theme-color" content="#0b0b12">
+  <meta property="og:title" content="Mahmooth Arsath M | Luxury Finance & SAP Portfolio">
+  <meta property="og:description" content="Finance, SAP, and business operations professional focused on accounting, ERP, and process excellence.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home" aria-label="Mahmooth Arsath home">
+          <span class="brand-mark" aria-hidden="true">MA</span>
+          <span class="brand-text">Mahmooth Arsath</span>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a class="nav-cta" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Finance • SAP • Business Operations</p>
+            <h1>Mahmooth Arsath M</h1>
+            <p class="hero-role">Strategic finance professional with ERP and process precision</p>
+            <p class="hero-intro">Commerce graduate, MBA Finance candidate, and SAP S/4HANA Financial Accounting certified professional focused on accounting operations, ERP discipline, and business process improvement.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#about">Explore Profile</a>
+              <a class="btn btn-secondary" href="#contact">Book a Conversation</a>
+              <a class="btn btn-ghost" href="assets/resume.html" target="_blank" rel="noopener noreferrer">Download Resume</a>
+            </div>
+          </div>
+
+          <aside class="hero-panel reveal" aria-label="Highlights">
+            <div class="panel-top">
+              <span class="small-label">Profile Snapshot</span>
+              <strong>Finance + SAP</strong>
+            </div>
+            <ul class="mini-stats">
+              <li>
+                <span class="value">B.Com</span>
+                <span class="label">SASTRA University</span>
+              </li>
+              <li>
+                <span class="value">MBA</span>
+                <span class="label">Finance (Ongoing)</span>
+              </li>
+              <li>
+                <span class="value">SAP</span>
+                <span class="label">S/4HANA FA Certified</span>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section light" id="about">
+        <div class="container narrow">
+          <p class="eyebrow accent">About</p>
+          <h2 class="reveal">Precision in finance, clarity in operations.</h2>
+          <div class="prose reveal">
+            <p>I am a commerce graduate with practical exposure to billing, purchasing, accounts, and ERP operations. I am currently pursuing an MBA in Finance while building hands-on knowledge in enterprise financial processes and SAP-driven workflows.</p>
+            <p>My experience in a trading firm strengthened my understanding of invoice preparation, purchase records, collections, and ledger maintenance. Working with Tally ERP, Max ERP, and Dolibarr gave me a clear view of how finance and operations systems support daily business decisions.</p>
+            <p>I also earned the SAP S/4HANA Cloud Private Edition Financial Accounting certification to deepen my understanding of how finance functions are structured in enterprise software. I am now targeting roles in SAP FICO, finance operations, and accounting process support where I can contribute with discipline, focus, and continuous learning.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section dark" id="experience">
+        <div class="container">
+          <p class="eyebrow">Experience</p>
+          <h2 class="reveal">Hands-on finance and ERP operations</h2>
+
+          <article class="card experience-card reveal">
+            <div class="card-head">
+              <div>
+                <p class="card-kicker">Sep 2025 – Dec 2025</p>
+                <h3>Billing &amp; Purchasing Executive</h3>
+              </div>
+              <span class="pill">Fresh Pack</span>
+            </div>
+            <p class="company-name">Proprietorship Trading Firm</p>
+            <ul class="feature-list">
+              <li>Prepared daily sales and customer invoices using ERP-based billing workflows.</li>
+              <li>Entered and reviewed purchase and sales transactions in Tally ERP for GST-aligned accounting records.</li>
+              <li>Maintained accounts payable and receivable follow-ups along with ledger support.</li>
+              <li>Coordinated supplier follow-ups, stock replenishment, and dispatch order tracking.</li>
+              <li>Helped manage customer collections and payment follow-up processes for assigned areas.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section light" id="education">
+        <div class="container">
+          <p class="eyebrow accent">Education</p>
+          <h2 class="reveal">Academic foundation</h2>
+
+          <ol class="timeline">
+            <li class="timeline-item reveal">
+              <span class="timeline-dot" aria-hidden="true"></span>
+              <div class="card timeline-card">
+                <p class="card-kicker">2025 – Present <span class="pill soft">Ongoing</span></p>
+                <h3>MBA, Finance</h3>
+                <p>Madras University (Distance Learning)</p>
+              </div>
+            </li>
+            <li class="timeline-item reveal">
+              <span class="timeline-dot" aria-hidden="true"></span>
+              <div class="card timeline-card">
+                <p class="card-kicker">2022 – 2025 <span class="pill soft done">Completed</span></p>
+                <h3>B.Com</h3>
+                <p>SASTRA University, Thanjavur</p>
+                <p class="muted">Percentage: 67%</p>
+              </div>
+            </li>
+            <li class="timeline-item reveal">
+              <span class="timeline-dot" aria-hidden="true"></span>
+              <div class="card timeline-card">
+                <p class="card-kicker">2020 – 2021</p>
+                <h3>HSC</h3>
+                <p>State Board of Tamil Nadu</p>
+                <p class="muted">Percentage: 65%</p>
+              </div>
+            </li>
+            <li class="timeline-item reveal">
+              <span class="timeline-dot" aria-hidden="true"></span>
+              <div class="card timeline-card">
+                <p class="card-kicker">2019 – 2020</p>
+                <h3>SSLC</h3>
+                <p>State Board of Tamil Nadu</p>
+                <p class="muted">Percentage: 58%</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section dark" id="certifications">
+        <div class="container">
+          <p class="eyebrow">Certifications</p>
+          <h2 class="reveal">Professional credentials</h2>
+
+          <article class="cert reveal">
+            <div class="cert-badge">SAP</div>
+            <div class="cert-body">
+              <h3>SAP S/4HANA Cloud Private Edition, Financial Accounting</h3>
+              <dl class="cert-details">
+                <div><dt>Issuer</dt><dd>SAP</dd></div>
+                <div><dt>Issued</dt><dd>August 2026</dd></div>
+                <div><dt>Valid until</dt><dd>09 Aug 2027</dd></div>
+              </dl>
+              <p class="muted">Certification focused on core financial accounting processes within SAP S/4HANA, including account structures, journal processing, and accounting workflows.</p>
+              <a class="btn btn-primary cert-link" href="https://www.credly.com/badges/0cb47af9-a2e1-4fd0-9bc2-87b945b114d0" target="_blank" rel="noopener noreferrer">Verify on Credly</a>
+            </div>
+          </article>
+
+          <article class="cert cert-small reveal">
+            <div class="cert-badge nism">NISM</div>
+            <div class="cert-body">
+              <h3>SEBI Investor Awareness Test</h3>
+              <dl class="cert-details">
+                <div><dt>Issuer</dt><dd>NISM / SEBI</dd></div>
+                <div><dt>Issued</dt><dd>October 2025</dd></div>
+              </dl>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section light" id="skills">
+        <div class="container">
+          <p class="eyebrow accent">Skills</p>
+          <h2 class="reveal">Capabilities and toolset</h2>
+          <div class="grid grid-2 reveal">
+            <article class="card skill-card">
+              <h3>Core Finance</h3>
+              <ul class="chips">
+                <li>Financial Accounting</li>
+                <li>Accounts Payable</li>
+                <li>Accounts Receivable</li>
+                <li>General Ledger</li>
+                <li>Invoice Processing</li>
+                <li>Cash Flow Tracking</li>
+                <li>GST Billing</li>
+                <li>Reconciliation</li>
+              </ul>
+            </article>
+
+            <article class="card skill-card">
+              <h3>SAP &amp; ERP</h3>
+              <ul class="chips">
+                <li>SAP S/4HANA</li>
+                <li>Tally ERP</li>
+                <li>Max ERP</li>
+                <li>Dolibarr</li>
+                <li>Purchase-to-Pay</li>
+                <li>Order-to-Cash</li>
+                <li>FI with MM/SD</li>
+              </ul>
+            </article>
+
+            <article class="card skill-card">
+              <h3>Productivity</h3>
+              <ul class="chips">
+                <li>MS Excel</li>
+                <li>MS Word</li>
+                <li>Basic SQL</li>
+                <li>Data Review</li>
+                <li>Documentation</li>
+                <li>Process Tracking</li>
+              </ul>
+            </article>
+
+            <article class="card skill-card">
+              <h3>Professional Strengths</h3>
+              <ul class="chips">
+                <li>Analytical Thinking</li>
+                <li>Communication</li>
+                <li>Teamwork</li>
+                <li>Problem Solving</li>
+                <li>Focus on Accuracy</li>
+                <li>Continuous Learning</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section dark" id="interests">
+        <div class="container">
+          <p class="eyebrow">Career Focus</p>
+          <h2 class="reveal">Where I want to grow</h2>
+          <div class="grid grid-5">
+            <article class="card interest reveal">
+              <span class="interest-no">01</span>
+              <h3>Finance &amp; Accounting</h3>
+              <p>Accounts payable, receivable, and transaction control.</p>
+            </article>
+            <article class="card interest reveal">
+              <span class="interest-no">02</span>
+              <h3>SAP FICO</h3>
+              <p>SAP-driven accounting and enterprise finance support.</p>
+            </article>
+            <article class="card interest reveal">
+              <span class="interest-no">03</span>
+              <h3>ERP Support</h3>
+              <p>Data accuracy, process discipline, and system efficiency.</p>
+            </article>
+            <article class="card interest reveal">
+              <span class="interest-no">04</span>
+              <h3>Finance Operations</h3>
+              <p>Well-controlled business processes and operational reporting.</p>
+            </article>
+            <article class="card interest reveal">
+              <span class="interest-no">05</span>
+              <h3>Business Analysis</h3>
+              <p>Operational process analysis and improvement thinking.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section light" id="contact">
+        <div class="container contact-grid">
+          <div>
+            <p class="eyebrow accent">Contact</p>
+            <h2 class="reveal">Let’s build something solid and valuable.</h2>
+            <p class="lead reveal">Open to SAP FICO, finance operations, and finance support opportunities in a growing business environment.</p>
+            <p class="location reveal">Thanjavur, India</p>
+            <div class="contact-actions reveal">
+              <a class="btn btn-primary" id="emailBtn" href="#contact" hidden>Email Me</a>
+              <a class="btn btn-secondary-dark" id="linkedinBtn" href="#contact" target="_blank" rel="noopener noreferrer" hidden>LinkedIn</a>
+              <a class="btn btn-ghost-dark" href="assets/resume.html" target="_blank" rel="noopener noreferrer">View Resume</a>
+            </div>
+          </div>
+
+          <form class="form card reveal" id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required>
+              <p class="error" id="nameError" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+              <p class="error" id="emailError" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <p class="error" id="messageError" role="alert"></p>
+            </div>
+            <div class="hp" aria-hidden="true">
+              <label for="website">Leave this field empty</label>
+              <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
+            </div>
+            <button class="btn btn-primary" type="submit" id="submitBtn">Send Message</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <p class="footer-name">Mahmooth Arsath M</p>
+          <p class="footer-tag">Finance • SAP • Business Operations</p>
+        </div>
+        <a class="footer-link" id="footerLinkedin" href="#contact" target="_blank" rel="noopener noreferrer" hidden>LinkedIn</a>
+        <p class="footer-copy">&copy; <span id="year">2026</span> Mahmooth Arsath M. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="assets/config.js"></script>
+  <script src="assets/main.js" defer></script>
+</body>
+</html>
