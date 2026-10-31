@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahmooth Arsath M | Resume</title>
+  <style>
+    :root {
+      --bg: #0d121a;
+      --paper: #f4efe7;
+      --ink: #121a27;
+      --muted: #536074;
+      --gold: #c99b46;
+      --gold-deep: #8a6925;
+      --line: rgba(18,26,39,0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 28px; background: linear-gradient(180deg, #0d121a 0%, #111a27 100%); font-family: Arial, Helvetica, sans-serif; color: var(--ink);
+    }
+    .resume {
+      max-width: 950px; margin: 0 auto; background: var(--paper); border-radius: 18px; overflow: hidden; border: 1px solid var(--line); box-shadow: 0 30px 80px rgba(0,0,0,0.28);
+    }
+    .header {
+      background: linear-gradient(135deg, #0c131d, #171f2d 70%, #222f3f 100%); color: #f7f2ea; padding: 30px 36px 24px;
+    }
+    .header h1 { margin: 0; font-size: 2.5rem; }
+    .title { margin-top: 10px; color: #efdbb1; letter-spacing: 0.12em; text-transform: uppercase; font-size: 0.8rem; }
+    .meta { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 12px 22px; color: rgba(255,255,255,0.8); font-size: 0.95rem; }
+    .content { padding: 30px 36px 36px; }
+    .section { margin-bottom: 28px; }
+    .section h2 {
+      margin: 0 0 12px; font-size: 0.9rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold-deep); border-bottom: 2px solid rgba(201,155,70,0.45); padding-bottom: 6px;
+    }
+    p, li { line-height: 1.7; }
+    ul { margin: 0; padding-left: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .label { font-weight: 700; }
+    @media (max-width: 700px) {
+      body { padding: 16px; }
+      .header, .content { padding-left: 20px; padding-right: 20px; }
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <div class="header">
+      <h1>Mahmooth Arsath M</h1>
+      <div class="title">Finance • SAP • Business Operations</div>
+      <div class="meta">
+        <span>📍 Thanjavur, Tamil Nadu</span>
+        <span>📞 88703 46882</span>
+        <span>📧 mahmootharsath@gmail.com</span>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="section">
+        <h2>Profile</h2>
+        <p>Commerce graduate with hands-on exposure to billing, purchasing, accounts, and ERP workflows. I am currently pursuing an MBA in Finance and have earned the SAP S/4HANA Financial Accounting certification. I am interested in finance operations, SAP FICO, and business process support roles.</p>
+      </div>
+
+      <div class="section">
+        <h2>Experience</h2>
+        <p><span class="label">Billing &amp; Purchasing Executive</span> | Fresh Pack | Sep 2025 – Dec 2025</p>
+        <ul>
+          <li>Prepared daily sales and customer invoices using ERP-based billing operations.</li>
+          <li>Entered purchase and sales transactions in Tally ERP for GST-aligned accounting records.</li>
+          <li>Maintained accounts payable and receivable activities with ledger support and follow-ups.</li>
+          <li>Coordinated supplier follow-ups, stock replenishment, and dispatch tracking.</li>
+          <li>Managed customer payment follow-ups and collections for assigned areas.</li>
+        </ul>
+      </div>
+
+      <div class="section grid">
+        <div>
+          <h2>Education</h2>
+          <p><span class="label">MBA – Finance</span> | Madras University (Distance Learning) | Ongoing</p>
+          <p><span class="label">B.Com</span> | SASTRA University | 67%</p>
+          <p><span class="label">HSC</span> | State Board of Tamil Nadu | 65%</p>
+          <p><span class="label">SSLC</span> | State Board of Tamil Nadu | 58%</p>
+        </div>
+        <div>
+          <h2>Certifications</h2>
+          <p><span class="label">SAP S/4HANA Financial Accounting</span> | SAP</p>
+          <p><span class="label">SEBI Investor Awareness Test</span> | NISM / SEBI</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Skills</h2>
+        <ul>
+          <li>Financial Accounting, Accounts Payable, Accounts Receivable, GST Billing</li>
+          <li>Tally ERP, Max ERP, Dolibarr, SAP S/4HANA</li>
+          <li>Purchase-to-Pay, Order-to-Cash, Ledger Maintenance, Reconciliation</li>
+          <li>MS Excel, MS Word, Basic SQL, Documentation, Teamwork</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
