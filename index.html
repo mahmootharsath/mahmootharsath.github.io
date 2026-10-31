@@ -4,78 +4,146 @@
     <meta charset="UTF-8">
     <title>Mahmooth Arsath | Finance • Accounts • ERP • App Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <style>
+        :root {
+            --primary: #0a3d62;
+            --primary-dark: #072f48;
+            --bg: #f4f6f8;
+            --text: #2f3640;
+            --white: #ffffff;
+            --border: #dfe6ee;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             font-family: Arial, Helvetica, sans-serif;
             margin: 0;
-            background: #f4f6f8;
-            color: #333;
-            line-height: 1.6;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
         }
 
         header {
-            background: #0a3d62;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
             color: white;
-            padding: 40px 20px;
+            padding: 50px 20px 38px;
             text-align: center;
         }
 
         header h1 {
             margin: 0;
-            font-size: 34px;
+            font-size: clamp(2rem, 5vw, 3.2rem);
+            letter-spacing: 0.04em;
         }
 
-        header p {
-            margin-top: 10px;
-            font-size: 16px;
+        .tagline {
+            margin-top: 12px;
+            font-size: clamp(1rem, 2vw, 1.3rem);
+            font-weight: 600;
+            opacity: 0.96;
+        }
+
+        .contact {
+            margin-top: 8px;
+            font-size: 1rem;
+            opacity: 0.95;
         }
 
         .container {
-            max-width: 1000px;
+            max-width: 1100px;
             margin: auto;
-            padding: 20px;
+            padding: 28px 20px 10px;
         }
 
         section {
             background: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 6px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+            padding: 24px 28px;
+            margin-bottom: 22px;
+            border-radius: 12px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+            border: 1px solid var(--border);
         }
 
         h2 {
-            color: #0a3d62;
-            border-bottom: 2px solid #0a3d62;
-            padding-bottom: 5px;
+            color: var(--primary);
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 8px;
+            margin-top: 0;
+            font-size: clamp(1.4rem, 2vw, 2rem);
+        }
+
+        p, li {
+            font-size: 1.02rem;
         }
 
         ul {
-            padding-left: 20px;
+            padding-left: 22px;
+            margin: 12px 0 0;
+        }
+
+        li + li {
+            margin-top: 6px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 14px;
         }
 
         .skills span {
             display: inline-block;
-            background: #0a3d62;
+            background: var(--primary);
             color: white;
-            padding: 6px 10px;
-            margin: 5px;
-            border-radius: 4px;
-            font-size: 14px;
+            padding: 8px 12px;
+            border-radius: 999px;
+            font-size: 0.92rem;
+            font-weight: 600;
+        }
+
+        .resume-link {
+            display: inline-block;
+            margin-top: 8px;
+            padding: 12px 18px;
+            background: var(--primary);
+            color: white;
+            border-radius: 8px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: 0.2s ease;
+        }
+
+        .resume-link:hover {
+            background: var(--primary-dark);
         }
 
         footer {
             text-align: center;
-            padding: 15px;
-            background: #0a3d62;
+            padding: 18px 15px;
+            background: var(--primary);
             color: white;
+            font-size: 0.96rem;
         }
 
         a {
-            color: #0a3d62;
+            color: var(--primary);
             font-weight: bold;
             text-decoration: none;
+        }
+
+        @media (max-width: 640px) {
+            section {
+                padding: 18px 16px;
+            }
+
+            .container {
+                padding-left: 12px;
+                padding-right: 12px;
+            }
         }
     </style>
 </head>
@@ -84,13 +152,12 @@
 
 <header>
     <h1>Mahmooth Arsath</h1>
-    <p>Finance • Accounts • ERP Executive • App Developer</p>
-    <p>📍 Thanjavur, Tamil Nadu | 📞 88703 46882 | 📧 mahmootharsath@gmail.com</p>
+    <p class="tagline">Finance • Accounts • ERP Executive • App Developer</p>
+    <p class="contact">📍 Thanjavur, Tamil Nadu | 📞 88703 46882 | 📧 mahmootharsath@gmail.com</p>
 </header>
 
 <div class="container">
 
-    <!-- ABOUT -->
     <section>
         <h2>About Me</h2>
         <p>
@@ -102,7 +169,6 @@
         </p>
     </section>
 
-    <!-- EDUCATION -->
     <section>
         <h2>Education</h2>
         <ul>
@@ -113,7 +179,6 @@
         </ul>
     </section>
 
-    <!-- EXPERIENCE -->
     <section>
         <h2>Professional Experience</h2>
         <p><strong>Billing & Purchasing Executive (ERP & Accounts) – 3 Months</strong></p>
@@ -128,7 +193,6 @@
         </ul>
     </section>
 
-    <!-- PROJECT -->
     <section>
         <h2>Project – App Development</h2>
         <p><strong>Personal Android Virtual Assistant App (Self-Developed)</strong></p>
@@ -141,7 +205,6 @@
         </ul>
     </section>
 
-    <!-- SKILLS -->
     <section>
         <h2>Skills</h2>
         <div class="skills">
@@ -164,7 +227,6 @@
         </div>
     </section>
 
-    <!-- CERTIFICATIONS -->
     <section>
         <h2>Certifications</h2>
         <ul>
@@ -174,7 +236,6 @@
         </ul>
     </section>
 
-    <!-- LANGUAGES -->
     <section>
         <h2>Languages</h2>
         <ul>
@@ -183,11 +244,10 @@
         </ul>
     </section>
 
-    <!-- RESUME DOWNLOAD -->
     <section>
         <h2>Resume</h2>
         <p>
-            <a href="Mahmooth_Arsath_Resume.pdf" download>
+            <a class="resume-link" href="Mahmooth_Arsath_Resume.pdf" download>
                 ⬇ Download My Resume (PDF)
             </a>
         </p>
@@ -201,4 +261,3 @@
 
 </body>
 </html>
-
